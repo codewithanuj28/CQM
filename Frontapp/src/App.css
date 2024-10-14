@@ -1,0 +1,84 @@
+.dash_nav{
+  height:10vh;
+  background-color: gray;
+}
+
+.dash_main{
+  height:90vh ;
+}
+
+.dash_main > div{
+  overflow: auto;
+}
+
+.dash_main > div:-webkit-scrollbar{
+  display: none;
+}
+
+.regcss{
+  background: url(./Component/img/1.jpg);
+  background-size: cover;
+  /* filter: blur(1px); */
+  /* -webkit-filter: blur(1px); */
+
+}
+
+.regcss2{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  opacity:0.9;          
+}
+input{
+  background-color: rgba(255, 255, 255, 0.5);;
+}
+
+.custcss{
+  background: url(./Component/img/2.webp);
+  background-size: cover;
+  /* filter: blur(1px);
+  -webkit-filter: blur(1px); */
+  height: 100vh;
+}
+
+.custcss2{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  opacity:1;
+}
+
+.admcss{
+  background: url(./Component/img/3.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.admcss2{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  opacity:1;
+}
+
+.r1{
+  background: url(./Component/img/7.png);
+  background-size: cover;
+  height: 350px;
+}
+
+
+.a{
+  text-decoration: none;
+  color: black;
+}
+
+.b{
+  background-image: url(./th1.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.z{
+  margin-top: 150px;
+}
+
